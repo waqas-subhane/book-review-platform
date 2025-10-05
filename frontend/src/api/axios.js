@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your backend API URL
+  // This is the line that has been changed
+  baseURL: 'https://book-review-platform-api-tw2l.onrender.com/api', 
 });
 
 // Request interceptor to add the token to headers
